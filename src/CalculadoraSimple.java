@@ -22,7 +22,7 @@ public class CalculadoraSimple {
         int resta = a - b;
 
         System.out.println("Resta: " + resta);
-
+    
        // Multiplicación
         int multiplicacion = a * b;
 
@@ -31,11 +31,9 @@ public class CalculadoraSimple {
         // División
         if (b != 0) {
             float division = (float) a / b;
-            System.out.println("División: " + division);
-
+            System.out.println("el resultado de tu division es: " + division);
         } else {
-
-            System.out.println("División: No se puede dividir por cero");
+            System.out.println("division por 0, no es valida");
         }
         scanner.close();
 
